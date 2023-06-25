@@ -36,7 +36,7 @@ const Home = () => {
 
   const handleSpeak = () => {
     Speech.stop();
-    console.log(quote);
+    // console.log(quote);
     Speech.speak(quote + "by" + author);
   };
   const copyToClipboard = async () => {
