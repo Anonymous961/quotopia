@@ -5,6 +5,15 @@
       "bundler": "metro"
     },
     "name": "quotopia",
-    "slug": "quotopia"
+    "slug": "quotopia",
+    "icon": "./assets/AppIcon.png",
+    "extra": {
+      "eas": {
+        "projectId": "379c1252-e6eb-41c8-a8ed-ddebcd8077d0"
+      }
+    },
+    "android": {
+      "package": "com.anonymous961.quotopia"
+    }
   }
 }
